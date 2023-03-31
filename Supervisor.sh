@@ -1,6 +1,5 @@
 #!/bin/bash
 apt install -y epel-release
-apt remove -y supervisor
 apt install -y supervisor
 
 # 备份配置文件，新增个性化配置（无配置则使用默认配置）
