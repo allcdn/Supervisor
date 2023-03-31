@@ -34,7 +34,7 @@ supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
 serverurl=unix:///var/run/supervisor/supervisor.sock
 
 [include]
-files = supervisord.d/*.ini
+files = /etc/supervisor/conf.d/*.ini
 EOF
 
 # 设置开机自启
