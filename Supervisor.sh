@@ -1,4 +1,3 @@
-#! bin/bash
 yum install -y epel-release
 yum remove -y supervisor
 yum install -y supervisor
