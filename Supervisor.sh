@@ -9,7 +9,7 @@ fi
 
 cat <<EOF >/etc/supervisor/supervisord.conf
 [unix_http_server]
-file=/var/run/supervisor/supervisor.sock
+file=/var/run/supervisor.sock
 
 [inet_http_server]
 port=0.0.0.0:11911
