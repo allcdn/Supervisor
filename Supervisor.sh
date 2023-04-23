@@ -30,7 +30,7 @@ minprocs=200
 supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
 
 [supervisorctl]
-serverurl=unix:///var/run/supervisor/supervisor.sock
+serverurl=unix:///var/run/supervisor.sock
 
 [include]
 files = /etc/supervisor/conf.d/*.ini
