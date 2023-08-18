@@ -14,7 +14,7 @@ file=/var/run/supervisor.sock
 [inet_http_server]
 port=0.0.0.0:11911
 username=root
-password=root
+password=666666
 
 [supervisord]
 logfile=/var/log/supervisor/supervisord.log
@@ -37,4 +37,4 @@ files = /etc/supervisor/conf.d/*.ini
 EOF
 
 # 设置开机自启
-systemctl enable supervisord
+systemctl enable supervisor
